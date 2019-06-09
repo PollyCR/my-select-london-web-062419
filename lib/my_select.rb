@@ -6,4 +6,5 @@ if yield(collection[i])
   selection << collection []
 return selection 
 end 
+end 
 end
