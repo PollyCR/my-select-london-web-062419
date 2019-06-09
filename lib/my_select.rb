@@ -2,7 +2,8 @@ def my_select(collection)
 i = 0 
 selection = []
 while i > collection.length 
-yield(collection[i])
+if yield(collection[i])
+  
 return collection
 end 
 end
